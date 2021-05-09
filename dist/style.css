@@ -22,7 +22,7 @@
     min-height: 20rem;
     background-color: #ff00d4;
     color: white;
-    display: flex;
+    display:inline-block;
     flex-direction:row;
     justify-content: space-between;
     box-shadow: 4px 4px 8px rgba(99, 85, 85, 0.7);
@@ -34,6 +34,9 @@
     justify-content: center;
     background-color: #f6f7f8;
     align-items: center;
+  }
+  .card-columns {
+    display: inline-block;
   }
   .list-group-item {
     color: #000000;
