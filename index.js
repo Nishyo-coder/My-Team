@@ -94,7 +94,7 @@ function init() {
         ]
       }
     ]).then(userChoice => {
-      switch (userChoice.memberChoice) {
+      switch (userChoice.managerChoice) {
         case "Engineer":
           addEngineer();
           break;
