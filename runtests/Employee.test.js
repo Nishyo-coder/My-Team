@@ -1,4 +1,4 @@
-//Employee test to return role, id, email, name
+//Employee test to return role, id, email
 
 const Employee = require("../lib/Employee");
 
